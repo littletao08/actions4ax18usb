@@ -15,3 +15,4 @@
 
 # Modify default hostname
 #sed -i 's/OpenWrt/AX18USB/g' package/base-files/files/bin/config_generate
+sed -i 's/ +libopenssl-legacy//g' feeds/small/shadowsocksr-libev/Makefile
